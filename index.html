@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML5 - first play with canvas tag</title>
+	<title>Clock</title>
   
 <script type="text/javascript">
 
@@ -298,30 +298,9 @@ window.onload = function(){
 body { background-color: #000; font-family: Arial, Helvetica, sans-serif; color: #000; }
 #clock { position: relative; top: 10px; clear: both; margin: 10px; }
 canvas { position: absolute; top: 0; }
-div#notes { position: absolute; top: 0; right: 0; width: 350px; background-color: #fff; padding: 5px; }
-p { font-size: .75em; margin-bottom: 10px; } 
-pre { font-size: .9125em; margin-bottom: 10px; }
 </style>
 </head>
 <body>
-<div id="notes">
-  <p>first play with CANVAS tag - no images used.</p>
-  <p>(almost) completely configurable.</p>
-  <p>no javascript library. minifies to 3.6kb.</p>
-  <pre>
-  digitalClock({
-    element : 'clock', // clock container ID
-    iDigitWidth : 100, // width of a single digit
-    iLineSize : 20, // width of a single bar
-    iGap : 2, // gap between bars
-    sDigitColor : '#00ff00' // hex color
-  });
-  </pre>
-  <p>tested in ff3, safari4 (inc. iphone), chrome5.</p>
-  <p>haven't got the glow effect that i wanted right yet, but looks ok.</p>
-  <p>danny@dannycallaghan.com</p>
-</div>
 <div id="clock"></div>
-
 </body>
 </html>
