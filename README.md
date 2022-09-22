@@ -1,8 +1,5 @@
+# canvas-digital-clock
+A digital clock for the browser canvas.  
+Forked from [Danny Callaghan](https://github.com/dannycallaghan/HTML5-Canvas-Digital-Clock)
 
-# HTML5 Canvas Digital Clock
-
-Just me playing around with the HTML5 canvas element for the first time. Simple as that.
-
-Can be seen here:
-
-http://dannycallaghan.github.io/HTML5-Canvas-Digital-Clock/index.html
+[Show clock](https://bbusse.github.io/canvas-digital-clock/)
